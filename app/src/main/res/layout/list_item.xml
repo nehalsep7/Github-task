@@ -9,8 +9,9 @@
         android:text="Person Name"
         android:id="@+id/nameView"
         android:layout_margin="5dp"
-        android:textSize="20sp"
-        android:textColor="#424242" />
+        android:textSize="15sp"
+        android:textColor="#424242"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,7 +20,7 @@
         android:id="@+id/commitView"
         android:layout_gravity="bottom"
         android:layout_margin="5dp"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="#424242" />
 
     <TextView
@@ -29,6 +30,6 @@
         android:id="@+id/messageView"
         android:layout_gravity="center_vertical"
         android:layout_margin="5dp"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="#424242" />
 </LinearLayout>
